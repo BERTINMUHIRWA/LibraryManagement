@@ -1,0 +1,27 @@
+./* Main dashboard styles for Library Management - using shared variables from vars.css */
+{box-sizing:border-box}
+body{margin:0;font-family:Segoe UI, Roboto, Arial, sans-serif;background:var(--bg);color:var(--text)}
+.container{max-width:1100px;margin:0 auto;padding:20px}
+.site-header{background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));border:1px solid rgba(255,255,255,0.06);backdrop-filter:blur(8px);box-shadow:var(--shadow)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:18px 20px}
+.site-title{margin:0;font-size:20px;color:var(--accent)}
+.user-area{display:flex;align-items:center;gap:12px}
+.user-name{color:var(--muted)}
+.btn-logout{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 10px;border-radius:8px;color:var(--muted);text-decoration:none}
+
+.quick-actions{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:24px 0}
+.card{display:block;background:var(--card);padding:18px;border-radius:12px;box-shadow:var(--shadow);backdrop-filter:blur(6px);text-decoration:none;color:inherit;transition:transform .12s ease,box-shadow .12s ease}
+.card:hover{transform:translateY(-6px);box-shadow:0 14px 36px rgba(33,42,61,0.12)}
+.card-title{font-weight:600;margin-bottom:6px}
+.card-desc{color:var(--muted);font-size:14px}
+
+.notes{background:var(--card);padding:16px;border-radius:10px;box-shadow:var(--shadow);backdrop-filter:blur(6px)}
+.notes h2{margin-top:0}
+.notes ul{margin:8px 0 0 18px;color:var(--muted)}
+
+.site-footer{padding:14px 0;text-align:center;color:var(--muted);font-size:13px;margin-top:28px}
+
+@media (max-width:520px){
+    .header-inner{padding:12px}
+    .container{padding:12px}
+}

@@ -1,0 +1,13 @@
+/* Shared design variables for dashboard and login */
+:root{
+    --bg-start: #0f172a;
+    --bg-end: #0b2545;
+    --bg: linear-gradient(135deg,var(--bg-start),var(--bg-end));
+    --card: rgba(255,255,255,0.04);
+    --glass: rgba(255,255,255,0.06);
+    --accent: #6ea8fe;
+    --accent-2: #3b82f6;
+    --muted: #c7d2fe;
+    --text: #e6eef8;
+    --shadow: 0 12px 40px rgba(2,6,23,0.6);
+}
