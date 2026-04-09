@@ -1,14 +1,5 @@
-# LibraryManagement-MUHIRWABERTIN-MUKUNDENTEFLAVIA
+# LibraryManagement
 PHP + MySQL project
-
-## Group Members
-1. **Full Name:** MUHIRWA BERTIN 
-   **RegNo:** 24RP05971 
-
-2. **Full Name:** MUKUNDENTE FLAVIA  
-   **RegNo:** 23RP02457  
-
----
 
 ## 2. Project Title
 
